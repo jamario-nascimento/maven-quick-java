@@ -6,19 +6,19 @@
 
 ## Comandos
 
-***nvm compile***
+**nvm compile**
 
 serve para compilar todas as classes da aplicação adiciona uma pastar target e coloca todos os asquivos compilados lá
 
-***nvm test***
+**nvm test**
 
 Encontra as classes de test e executa os tests dentro de cada pasta
 
-***nvm package***
+**nvm package**
 
 Empacota o projeto e cria o arquivo .jar que vai ser publicado
 
-***nvm clean***
+**nvm clean**
 
 Limpa a pasta target limpando diretório de trabalho
 
