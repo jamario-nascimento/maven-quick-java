@@ -71,6 +71,8 @@ Podemos escolher a versão e pegar o  dependency e colocar no pom.xml
     <type>pom</type>
  </dependency>
 ```
-Após isso rodamos o comando para instalar das dependencias.
 
->mvn install
+Após isso rodamos o comando para instalar das dependencias.
+```
+mvn install
+```
