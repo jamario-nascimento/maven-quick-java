@@ -2,7 +2,7 @@
 
 ## Comando para pegar um template de projeto no repositório
 
-> mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+``` mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false ```
 
 ## Comandos
 
@@ -30,10 +30,12 @@ Arquetipos são usados para definir template com configurações pré existentes
 
 Exemplo
 
+```
 Maven Plugin Site Archetype
 maven-archetype-plugin-site is an archetype which generates a sample Maven plugin's site:
+```
 
->mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-plugin-site -DarchetypeVersion=1.4
+``` mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-plugin-site -DarchetypeVersion=1.4 ```
 
 
 ## pom.xml
