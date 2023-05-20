@@ -33,7 +33,7 @@ Exemplo
 Maven Plugin Site Archetype
 maven-archetype-plugin-site is an archetype which generates a sample Maven plugin's site:
 
-´´mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-plugin-site -DarchetypeVersion=1.4´´
+>mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-plugin-site -DarchetypeVersion=1.4
 
 
 ## pom.xml
@@ -46,3 +46,24 @@ Arquivo usado para executar o projeto ele possui atributos:
 * Configurações de build
 * Detalhes do projeto ( nome, descrição, licença, url)
 * Configurações de ambiente (repositórios, tracking, profiles)
+
+## Adicionando dependências
+
+O modo correto de adicionar uma dependencias no projeto usando o mavem é acessar o site do repositório e buscar pela dependência desejada.
+Ex: Hibernate Core
+
+>https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+
+Podemos escolher a versão e pegar o  dependency e colocar no pom.xml
+
+><!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>6.2.3.Final</version>
+    <type>pom</type>
+</dependency>
+
+Após isso rodamos o cmmando para instalar das dependencias.
+
+>mvn install
