@@ -57,13 +57,14 @@ Ex: Hibernate Core
 Podemos escolher a versão e pegar o  dependency e colocar no pom.xml
 
 ><!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-> <dependency>
->   <groupId>org.hibernate</groupId>
->    <artifactId>hibernate-core</artifactId>
->    <version>6.2.3.Final</version>
->    <type>pom</type>
-> </dependency>
-
+```
+ <dependency>
+  <groupId>org.hibernate</groupId>
+   <artifactId>hibernate-core</artifactId>
+    <version>6.2.3.Final</version>
+    <type>pom</type>
+ </dependency>
+```
 Após isso rodamos o comando para instalar das dependencias.
 
 >mvn install
